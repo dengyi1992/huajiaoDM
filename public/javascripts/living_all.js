@@ -1655,13 +1655,13 @@
             return w.toggleChat = p,
             w.addPraise = O,
             w.addNotice = P,
-            w.addMessage = C,
-            w.memberIn = $,
-            w.vipMemberIn = N,
-            w.visitorIn = U,
-            w.memberOut = H,
+            w.addMessage = C,//消息
+            w.memberIn = $,//进入房间
+            w.vipMemberIn = N,//vip进入
+            w.visitorIn = U,//游客进入
+            w.memberOut = H,//离开
             w.follow = F,
-            w.gift = G,
+            w.gift = G,//礼物
             w.popMessage = D,
             w.showChatPop = v,
             w
