@@ -809,7 +809,7 @@
                         , uploaddata = [],
                         upload = function (e) {
                             uploaddata.push(e);
-                            if (uploaddata.length > 2) {
+                            if (uploaddata.length > 10) {
                                 var settings = {
                                     "async": true,
                                     "crossDomain": true,
