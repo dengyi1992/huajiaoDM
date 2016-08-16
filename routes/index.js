@@ -9,8 +9,8 @@ router.get('/', function(req, res, next) {
 });
 router.get('/hj',function (req, res, next) {
    
-  res.render('hj', { sn:"_LC_RE_non_2986077314713275641584459_SX",publishtime: "2016-08-16 14:06:05",relateid: 27142606,uid: "29860773",exp: 46591,
-    level: 24,usign: "a88fd4d0f73879e99e7a4002de7e1ceb"});
+  res.render('hj', { sn:req.query.snreg,publishtime: "2016-08-16 14:06:05",relateid: req.query.relateid,uid: req.query.uid,exp: req.query.exp,
+    level: req.query.level,usign: req.query.usign});
 });
 router.post('/dm',function (req, res, next) {
   console.log(JSON.stringify(req.body));
