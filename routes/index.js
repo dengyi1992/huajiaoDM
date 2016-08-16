@@ -7,6 +7,9 @@ router.get('/', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.render('index', { title: 'Express' });
 });
+router.get('/hj',function (req, res, next) {
+  res.render('hj', { data:{} });
+});
 router.post('/dm',function (req, res, next) {
   console.log(JSON.stringify(req.body));
   res.json({msg:"success"})
