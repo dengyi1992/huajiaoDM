@@ -13,6 +13,7 @@ router.get('/hj',function (req, res, next) {
     level: req.query.level,usign: req.query.usign});
 });
 router.post('/dm',function (req, res, next) {
+  
   console.log(JSON.stringify(req.body));
   res.json({msg:"success"})
 });

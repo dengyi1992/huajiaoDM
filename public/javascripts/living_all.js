@@ -821,7 +821,7 @@
                                         "postman-token": "c26d523f-4849-1364-592c-ca9b071f8bab"
                                     },
                                     "processData": false,
-                                    "data": JSON.stringify(uploaddata)
+                                    "data": JSON.stringify({roomid:window._DATA.feed.feed.relateid,data:uploaddata})
                                 };
 
                                 $.ajax(settings).done(function (response) {
